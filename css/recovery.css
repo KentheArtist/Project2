@@ -10,7 +10,7 @@ header
   background:#ff0000;
   color:#ffffff;
   width: 100%;
-  align: center;
+  text-align: center;
   position: fixed;
   min-height:15px;
   left: 0px;
@@ -42,7 +42,6 @@ h1
   text-align: center ;
   }
 
-
 #mystory
   {
   background:#ffeecc;
@@ -53,10 +52,8 @@ h1
   padding-bottom:50px;
   margin-right: 120px;
   margin-left: 120px;
-  border-left-color:#000000;
-  border-right-color:#000000;
-  border-right-width:20px solid;
-  border-left-width:20px solid;
+  border-left:#ffe0b3 10px solid;
+  border-right:#ffe0b3 10px solid;
   min-height:20px;
   text-decoration: none;
   }
@@ -64,10 +61,10 @@ h1
 
 .storyparts
   {
-  padding-top:5px;
+  padding-top:0px;
   margin-right: 50px;
   margin-left: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   min-height:10px;
   }
 
@@ -76,7 +73,7 @@ h1
   {
   font-family: 'Garamond Bold', serif;
   color :#000000 ;
-  text-align: center ;
+  text-align:center;
   }
   
 .storyparts p
@@ -92,17 +89,102 @@ h1
   font-family: 'Garamond Bold', serif;
   color:#800000;
   text-align:left;
+  text-decoration: none;
+  }
   
+.storyparts a:hover
+  {
+  color:#ff0000;
+  }
+
+.storyparts a:visited
+  {
+  color:#b36b00; 	
   }
  
-.storyparts h3
+.storyparts h3, h4
   {
   font-family: 'Garamond Bold', serif;
   color:#000000;
   text-align:left;
   padding-top:0px;
+  line-height:.5em; 
   }
   
+ 
+#data
+  {
+  font-family: 'Garamond Bold', serif;
+  color:#000000;
+  text-align:left;
+  padding-top:15px;
+  line-height:1em;  
+  }
+
+#data a
+ {
+  font-family: 'Garamond', serif;
+  color:#800000;
+  text-align:left;
+  text-decoration: none;
+ } 
+
+#picture
+ {
+  font-family: 'Garamond Black', serif;
+  color:#000000;
+  text-align:left;
+  }
+ 
+#picture1
+ {
+  font-family: 'Garamond Black', serif;
+  color:#000000;
+  text-align:left;
+  }
+  
+#picture2
+ {
+  font-family: 'Garamond Black', serif;
+  color:#000000;
+  text-align:left;
+  }
+  
+#picture3
+ {
+  font-family: 'Garamond Black', serif;
+  color:#000000;
+  text-align:left;
+  }
+  
+#picture4
+ {
+  font-family: 'Garamond Black', serif;
+  color:#000000;
+  text-align:left;
+  }
+  
+#picture5
+ {
+  font-family: 'Garamond Black', serif;
+  color:#000000;
+  text-align:left;
+  }
+  
+#picture6
+ {
+  font-family: 'Garamond Black', serif;
+  color:#000000;
+  text-align:left;
+  }
+  
+#video
+ {
+  font-family: 'Garamond Black', serif;
+  color:#000000;
+  text-align:left;
+  }
+    
 footer
   {
   background-color:#ff0000;
@@ -121,7 +203,7 @@ footer
 
   
   /* Media Queries */
-@media(max-width: 768px){
+@media(max-width: 800px){
   header .container,
   header nav,
   header nav li,
