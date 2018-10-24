@@ -1,0 +1,131 @@
+body
+   {
+   background-image: url("../images/bkgdtilebeige.png");
+   background-attachment:fixed
+   }
+
+/* Header */
+header
+  {
+  background:#ff0000;
+  color:#ffffff;
+  width: 100%;
+  align: center;
+  position: fixed;
+  min-height:15px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  }
+
+header a
+  {
+  font-family: 'Garamond Black', serif;
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:15px;
+  }
+
+header li
+  {
+  float:center;
+  display:inline;
+  padding: 0px 20px 10px 20px;
+  }
+
+h1
+  {
+  font-family: 'Garamond Bold', serif;
+  color :#000000 ;
+  font-size:30px;
+  text-align: center ;
+  }
+
+
+#mystory
+  {
+  background:#ffeecc;
+  color:#ffffff;
+  padding-top:50px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:50px;
+  margin-right: 120px;
+  margin-left: 120px;
+  border-left-color:#000000;
+  border-right-color:#000000;
+  border-right-width:20px solid;
+  border-left-width:20px solid;
+  min-height:20px;
+  text-decoration: none;
+  }
+
+
+.storyparts
+  {
+  padding-top:5px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  min-height:10px;
+  }
+
+  
+.storyparts h1
+  {
+  font-family: 'Garamond Bold', serif;
+  color :#000000 ;
+  text-align: center ;
+  }
+  
+.storyparts p
+  {
+  font-family: 'Garamond Bold', serif;
+  color:#000000;
+  text-align:left;
+  padding-bottom:0px;
+  }
+
+.storyparts a
+  {
+  font-family: 'Garamond Bold', serif;
+  color:#800000;
+  text-align:left;
+  
+  }
+ 
+.storyparts h3
+  {
+  font-family: 'Garamond Bold', serif;
+  color:#000000;
+  text-align:left;
+  padding-top:0px;
+  }
+  
+footer
+  {
+  background-color:#ff0000;
+  color:#ffffff;
+  padding:0px;
+  color:#ffffff;
+  text-align: center;
+  width: 100%
+  height: 20px;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  text-align: center;
+  }
+
+  
+  /* Media Queries */
+@media(max-width: 768px){
+  header .container,
+  header nav,
+  header nav li,
+
+  }
+ 
+
