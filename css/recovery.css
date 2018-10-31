@@ -408,7 +408,6 @@ footer a:hover
   #video,
   img
 	   {
-		padding:15px;
 		max-width: 100%;
 		margin:auto;
 	   }   
@@ -416,7 +415,9 @@ footer a:hover
 	#picture7 p {
 		padding:auto;
 		max-width: 100%;
+		padding-bottom: 15px;
 		margin:auto;
+		
         		
 	}
 
