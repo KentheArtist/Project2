@@ -1,9 +1,11 @@
+/*Home and Accident Pictures Background Tiled Picture*/
 body
    {
    background-image: url("../images/bkgdtilebeige.png");
    background-attachment:fixed
    }
  
+/*Resume Background Tiled Picture*/ 
 .suitpic
    {
    background-image: url("../images/mesuited.png");
@@ -16,6 +18,7 @@ header
   background:#ff0000;
   color:#ffffff;
   width: 100%;
+  float:center;
   text-align: center;
   position: fixed;
   min-height:15px;
@@ -61,30 +64,33 @@ h1
   {
   background:#ffeecc;
   color:#ffffff;
-  padding-top:50px;
-  padding-left:10px;
-  padding-right:10px;
+  margin: 120px auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding-bottom:80px;
-  margin-right: 120px;
-  margin-left: 120px;
+  width: 80%;
   border-left:#ffe0b3 10px solid;
   border-right:#ffe0b3 10px solid;
-  min-height:20px;
   text-decoration: none;
-  float:center;
-  }
-
+  float: center;
+  } 
+  /*padding-top:50px;
+  padding-left:10px;
+  padding-right:10px;
+  margin-right: 120px;
+  min-height:20px;
+  margin-left: 120px;*/
 
 .storyparts
   {
-  padding-top:0px;
+  padding-top:40px;
+  padding-top:40px;
   margin-right: 50px;
   margin-left: 50px;
   margin-bottom: 0px;
   min-height:10px;
   }
-
-  
+ 
 .storyparts h1
   {
   font-family: 'Garamond Bold', serif;
@@ -127,7 +133,44 @@ h1
   line-height:.5em; 
   }
   
+.storyparts1
+  {
+  font-family: 'Garamond Bold', serif;
+  color:#000000;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align:left;
+  padding-top:0px;
+  line-height:1.2em; 
+  }
  
+ .storyparts1 p
+  {
+  font-family: 'Garamond Bold', serif;
+  color:#000000;
+  text-align:left;
+  padding-bottom:0px;
+  }
+
+.storyparts1 a
+  {
+  font-family: 'Garamond Bold', serif;
+  color:#800000;
+  text-align:left;
+  text-decoration: none;
+  }
+  
+.storyparts1 a:hover
+  {
+  color:#ff0000;
+  }
+
+.storyparts1 a:visited
+  {
+  color:#b36b00; 	
+  }
+  
+/*Name, address, phone and e-mail block*/ 
 #data
   {
   font-family: 'Garamond Bold', serif;
@@ -150,11 +193,32 @@ h1
   color:#ff0000;
   }
 
+/*Picture/text blocks on Accident Page*/ 
+
+/*Doppelganger deMedici Picture*/ 
 #picture
  {
   font-family: 'Garamond Black', serif;
   color:#000000;
   text-align:left;
+  }
+  
+#picture p
+  {
+  padding-bottom: 70px;
+  }
+ 
+/*Other Pictures*/
+
+img
+  {
+  background:#ffffff;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  color:#000000;
+  padding:0px;
+  float: center;  
   }
  
 #picture1
@@ -162,9 +226,10 @@ h1
   background:#ffffff;
   font-family: 'Garamond Black', serif;
   color:#000000;
+  margin:auto;
   padding:15px;
-  float:center;
   text-align:center;
+  /*dropshadows for pictures and text*/
   -webkit-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
@@ -175,8 +240,11 @@ h1
   background:#ffffff;
   font-family: 'Garamond Black', serif;
   color:#000000;
+  margin:auto;
   padding:15px;
+  float:center;
   text-align:center;
+  /*dropshadows for pictures and text*/
   -webkit-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
@@ -187,8 +255,10 @@ h1
   background:#ffffff;
   font-family: 'Garamond Black', serif;
   color:#000000;
+  margin:auto;
   padding:15px;
   text-align:center;
+  /*dropshadows for pictures and text*/
   -webkit-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
@@ -199,8 +269,10 @@ h1
   background:#ffffff;
   font-family: 'Garamond Black', serif;
   color:#000000;
+  margin:auto;
   padding:15px;
   text-align:center;
+  /*dropshadows for pictures and text*/
   -webkit-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
@@ -211,8 +283,10 @@ h1
   background:#ffffff;
   font-family: 'Garamond Black', serif;
   color:#000000;
+  margin:auto;
   padding:15px;
   text-align:center;
+  /*dropshadows for pictures and text*/
   -webkit-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
@@ -223,8 +297,10 @@ h1
   background:#ffffff;
   font-family: 'Garamond Black', serif;
   color:#000000;
+  margin:auto;
   padding:15px;
   text-align:center;
+  /*dropshadows for pictures and text*/
   -webkit-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
@@ -235,8 +311,11 @@ h1
   background:#ffffff;
   font-family: 'Garamond Black', serif;
   color:#000000;
+  margin:auto;
   padding:15px;
   text-align:center;
+  max-width: 100%;
+  /*dropshadows for pictures and text*/
   -webkit-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
@@ -247,24 +326,42 @@ h1
   background:#ffffff;
   font-family: 'Garamond Black', serif;
   color:#000000;
+  margin:auto;
   padding:0px;
   text-align:left;
+  max-width: auto;
   padding-top: 0px;
   margin-top: 0px;
+
   }
   
+/*YouTube Video*/ 
 #video
  {
   background:#ffffff;
   font-family: 'Garamond Black', serif;
   color:#000000;
-  padding:15px;
   text-align:center;
+  margin:auto;
+  padding:15px;
+  max-width: 100%;
+  /*dropshadows for pictures and text*/
   -webkit-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   box-shadow: 0px 5px 9px 2px rgba(0,0,0,0.24);
   }
-    
+
+object
+  {
+  background:#ffffff;
+  max-width: 100%;
+  color:#000000;
+  margin:auto;
+  padding:0px;
+  float: center;   
+  }
+  
+/*Footer*/  
 footer
   {
   background-color:#ff0000;
@@ -288,6 +385,7 @@ footer a
   color:#ffffff;
   text-decoration:none;
   font-size:17px;
+  margin:auto;
   text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
   }
   
@@ -297,10 +395,30 @@ footer a:hover
   }
 
   /* Media Queries */
-@media(max-width: 768px){
-  header .container,
-  header nav,
-  header nav li,
+@media(max-width: 768px)
+  {
+  #picture,
+  #picture1,
+  #picture2,
+  #picture3,
+  #picture4,
+  #picture5,
+  #picture6
+  #picture7,
+  #video,
+  img
+	   {
+		padding:15px;
+		max-width: 100%;
+		margin:auto;
+	   }   
+	
+	#picture7 p {
+		padding:auto;
+		max-width: 100%;
+		margin:auto;
+        		
+	}
 
   }
  
