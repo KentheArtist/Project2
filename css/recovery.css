@@ -36,7 +36,7 @@ header a
   color:#ffffff;
   text-decoration:none;
   text-transform: uppercase;
-  font-size:15px;
+  font-size:20px;
   text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
   }
   
@@ -107,7 +107,7 @@ h1
 
 .storyparts a
   {
-  font-family: 'Garamond', serif;
+  font-family: 'Garamond Bold', serif;
   color:#800000;
   text-align:left;
   text-decoration: none;
@@ -310,8 +310,8 @@ img
   background:#ffffff;
   font-family: 'Garamond Black', serif;
   color:#000000;
-  margin:auto;
   padding:15px;
+  margin:auto;
   text-align:center;
   max-width: 100%;
   /*dropshadows for pictures and text*/
@@ -325,13 +325,12 @@ img
   background:#ffffff;
   font-family: 'Garamond Black', serif;
   color:#000000;
+  padding:0px;
+  padding-bottom: 10px;
   margin:auto;
-  padding-left:0px;
-  padding-right: 0px;
   text-align:left;
   max-width: auto;
   padding-top: 0px;
-  padding-bottom: 10px;
   margin-top: 0px;
 
   }
@@ -356,12 +355,11 @@ object
   {
   background:#ffffff;
   max-width: 100%;
-  color:#000000;
   margin:auto;
+  /*height: auto;*/
+  color:#000000;
   padding:0px;
-  float: center; 
-  width: auto;
-  height: auto;  
+  float: center;   
   }
   
 /*Footer*/  
@@ -388,7 +386,6 @@ footer a
   color:#ffffff;
   text-decoration:none;
   font-size:17px;
-  margin:auto;
   text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
   }
   
@@ -400,35 +397,22 @@ footer a:hover
   /* Media Queries */
 @media(max-width: 768px)
   {
-  #picture,
-  #picture1,
-  #picture2,
-  #picture3,
-  #picture4,
-  #picture5,
-  #picture6
-  #picture7,
-  #video,
-  img
-	   {
+	#picture,
+	#picture1,
+	#picture2,
+	#picture3,
+	#picture4,
+	#picture5,
+	#picture6
+	#picture7,
+	#video,
+	img{
+		float: center;
 		max-width: 100%;
-		margin:auto;
-	   }
-	   
- /* #video
-       {
-		width: 700;
-        height: 393;		
-		margin:auto; */
-	   }
-	   
+	}
 	
-  #picture7 p {
-		padding-right: 0px;
-		padding-left: 0px;
+	#picture7 p {
 		max-width: 100%;
-		padding-bottom: 15px;
-		margin:auto;        		
 	}
 
   }
